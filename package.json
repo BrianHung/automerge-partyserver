@@ -1,0 +1,27 @@
+{
+	"name": "automerge-partyserver",
+	"private": true,
+	"version": "0.0.0",
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"dev:local": "vercel dev",
+		"dev:worker": "wrangler dev"
+	},
+	"dependencies": {
+		"@automerge/automerge-repo": "^1.2.1",
+		"@automerge/automerge-repo-network-broadcastchannel": "^1.2.1",
+		"@automerge/automerge-repo-network-websocket": "^1.2.1",
+		"@automerge/automerge-repo-react-hooks": "^1.2.1",
+		"@automerge/automerge-repo-storage-indexeddb": "^1.2.1",
+		"@cloudflare/workers-types": "^4.20240722.0",
+		"partyserver": "^0.0.51",
+		"partysocket": "^1.0.2",
+		"wrangler": "^3.69.1"
+	},
+	"devDependencies": {
+		"@types/node": "^20.14.2",
+		"typescript": "^5.5.4",
+		"vite": "^5.3.5"
+	}
+}
