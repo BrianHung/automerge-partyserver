@@ -9,7 +9,7 @@
 		"dev:worker": "wrangler dev"
 	},
 	"dependencies": {
-		"@automerge/automerge-repo": "^1.2.1",
+		"@automerge/automerge-repo": "^2.0.0-alpha.4",
 		"@automerge/automerge-repo-network-broadcastchannel": "^1.2.1",
 		"@automerge/automerge-repo-network-websocket": "^1.2.1",
 		"@automerge/automerge-repo-react-hooks": "^1.2.1",

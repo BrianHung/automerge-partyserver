@@ -11,7 +11,7 @@ const wsReadyStateClosed = 3; // eslint-disable-line
 
 export class AutomergeServer extends Server {
 
-	readonly repo: Repo;
+	repo: Repo;
 
 	constructor(
 		private readonly ctx: DurableObjectState,
@@ -34,7 +34,6 @@ export class AutomergeServer extends Server {
 
 	async onStart(): Promise<void> {
 		console.log("on Start");
-
     const src = await this.onLoad();
     if (src != null) {
       // apply update to local document
